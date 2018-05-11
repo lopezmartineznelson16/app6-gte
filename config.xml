@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+
+<widget xmlns = "http:/www.w3.org/ns/widgets"
+ xmlns:gap="http://phonegap.com/ns/1.0"
+  id = "com.phonegap.app6"
+  version= "1.0.0">
+  
+  <name>app6 batalla de puebla </name>
+  
+  <description>
+  Aplicacion que muestra la historio de la batalla de puebla
+  </description>
+  
+  <author href="https://build.phonegap.com" email="nelsonlopezmartinez02@gmail.com">
+  Nelson lopez martinez
+  </author>
+  
+  <!--personaliza la aplicacion y plataforma-->
+  <preference name= "orientation" value="default"/>
+  <!--<preference name= "orientation" value="portrait"/>
+  <preference name= "orientation"  value="landscape"/>-->
+  <preference name="target-device" value="universal"/>
+  <preference name="fullscreen" value="true"/>
+	 <preference name= "android-installLocation" value="auto"/>
+	  <preference name= "permissions" value="INTERNET"/>
+	  <!--para acceder a paginas de internet-->
+	  <allow-intent href="https://*/*"/>
+	  <acces origin="https://*/*"/>
+	  <allow-intent href="http://*/*"/>
+	  <acces origin="http://*/*"/>
+	  <plugin name="cordova-plugin-whitelist" source="npm"/>
+	  
+	  <!-- plugins-->
+	  <!-- core plugins-->
+	  
+	  <!-- <plugin name="cordova-plugin-geolocation" source="npm"/>-->
+	  <!-- third part plugins-->
+	  
+	    <!--colocar icono app -->
+		<icon src="res/android/mdpi.png"/>
+		
+		</widget>
